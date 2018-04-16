@@ -1,0 +1,24 @@
+http://tech.marksblogg.com/better-python-package-management.html
+
+
+commands
+
+#1  pip list --format json 
+
+to list all the pip packages in json format 
+
+
+#2  pip list --outdated --format json
+
+to list all the pip outdated packages in json format 
+
+#3  pip install pipdeptree
+
+pipdeptree is a nice utility that will format stale packages,show dependency of packages,etc   in json format 
+
+
+
+#4  pipdeptree -j
+
+to list all the pip packages in json format, elaborative than pip list --format json
+
